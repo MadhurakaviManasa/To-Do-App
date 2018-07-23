@@ -1,0 +1,71 @@
+body{
+    background-color:tan; 
+}
+
+h1{
+    text-align: center;
+    color: darkred;
+}
+
+#input{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#task{
+    color: darksalmon;
+    padding: 10px;
+    border: 1px solid darkslategray;
+    border-radius: 5px;
+}
+
+#add:hover{
+    background: salmon;
+}
+
+#clear:hover{
+    background-color: salmon;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    color: midnightblue;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#add{
+    background-color: aqua;
+}
+
+#clear{
+    background-color: crimson;
+    color: white;
+}
+/*
+button.remove {
+    padding: 5px;
+    margin-left: 20px;
+    background-color: lightslategrey;
+    opacity: 0.5;
+}
+
+button.remove:hover {
+    background-color: lightseagreen;
+}
+*/
+ul{
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+    list-style-type: none;
+}
+
+li{
+    color: purple;
+    font-weight: 500;
+    font-size: 30px;
+}
