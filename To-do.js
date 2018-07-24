@@ -25,4 +25,19 @@ clearButton.addEventListener("click", clearFunction);
 function clearFunction(){
     userTasks.innerHTML = "";
 }
+
+// Adding "Done" option to the task list to remove the task
+
+var removeButton = document.createElement("button");
+removeButton.innerHTML = "Done";
+removeButton.className = "remove";
+removeButton.addEventListener("click", removeFunction);
+
+function removeFunction(e){
+        // get the parent list item to remove
+        var taskItem = e.target.parentElement;
+        userTasks.removeChild(taskItem);
+}
+newItem.appendChild(removeButton);
+userTasks.appendChild(newItem);
 }

@@ -45,7 +45,7 @@ button{
     background-color: crimson;
     color: white;
 }
-/*
+
 button.remove {
     padding: 5px;
     margin-left: 20px;
@@ -56,7 +56,7 @@ button.remove {
 button.remove:hover {
     background-color: lightseagreen;
 }
-*/
+
 ul{
     text-align: center;
     margin: 0 auto;
